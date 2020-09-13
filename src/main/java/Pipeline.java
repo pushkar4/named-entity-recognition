@@ -12,6 +12,7 @@ public class Pipeline {
     static {
         properties = new Properties();
         properties.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner");
+        properties.setProperty("sutime.markTimeRanges", "true");
     }
 
     public static StanfordCoreNLP getPipeline() {

@@ -11,7 +11,7 @@ public class NerService {
   public static void main(String[] args) {
 
     String sentence =
-        "Show me a summary of what Pushkar Sharma is working on in Q3 at Los Angeles.";
+        "Show me summary of what Pushkar Sharma was working on between Q2 to Q4 at Los Angeles.";
 
     StanfordCoreNLP pipeline = Pipeline.getPipeline();
     CoreDocument coreDocument = pipeline.processToCoreDocument(sentence);
