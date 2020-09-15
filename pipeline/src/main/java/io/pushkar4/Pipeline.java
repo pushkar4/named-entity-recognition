@@ -1,3 +1,5 @@
+package io.pushkar4;
+
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 
 import java.util.Properties;

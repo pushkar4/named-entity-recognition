@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4812e8d2-663f-4c6a-81c8-f3f0622b1b41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lemmatization/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ner/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pipeline/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LemmaExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lemmatization/src/main/java/io/pushkar4/LemmaExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ner/src/main/java/io/pushkar4/NerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ner/src/main/java/io/pushkar4/NerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline/src/main/java/io/pushkar4/Pipeline.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="named-entity-recognition" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="named-entity-recognition" type="f1a62948:ProjectNode" />
+                <item name="lemmatization" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="named-entity-recognition" type="f1a62948:ProjectNode" />
+                <item name="lemmatization" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="named-entity-recognition" type="f1a62948:ProjectNode" />
+                <item name="lemmatization" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="named-entity-recognition" type="f1a62948:ProjectNode" />
+                <item name="lemmatization" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="named-entity-recognition" type="f1a62948:ProjectNode" />
+                <item name="lemmatization" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="named-entity-recognition" type="f1a62948:ProjectNode" />
+                <item name="lemmatization" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/pushkar4/named-entity-recognition.git" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hRxO3OL0eh4QIvn17cQeK3GLkh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TF_FMT" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.NerExample">
+    <configuration name="LemmaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.pushkar4.LemmaExample" />
+      <module name="named-entity-recognition.lemmatization.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.pushkar4.NerExample" />
+      <module name="named-entity-recognition.ner.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NerService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.pushkar4.NerService" />
+      <module name="named-entity-recognition.ner.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NerService" />
+        <item itemvalue="Application.NerExample" />
+        <item itemvalue="Application.LemmaExample" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4812e8d2-663f-4c6a-81c8-f3f0622b1b41" name="Default Changelist" comment="" />
+      <created>1599987670828</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599987670828</updated>
+      <workItem from="1599987673166" duration="12811000" />
+      <workItem from="1600148313900" duration="2258000" />
+    </task>
+    <task id="LOCAL-00001" summary="just starting development">
+      <created>1599988103038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599988103038</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Lemma and NER examples added">
+      <created>1599998506481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599998506481</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Entity mentions and parts of speech">
+      <created>1600004260811</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600004260811</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add support for date/time durations">
+      <created>1600011352791</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600011352791</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
+    <MESSAGE value="just starting development" />
+    <MESSAGE value="Lemma and NER examples added" />
+    <MESSAGE value="Entity mentions and parts of speech" />
+    <MESSAGE value="Add support for date/time durations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add support for date/time durations" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="328" y="106" key="#Project_Structure" timestamp="1600150702092">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="328" y="106" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1600150702092" />
+    <state x="381" y="119" key="CommitChangelistDialog2" timestamp="1600011352634">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="381" y="119" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1600011352634" />
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1600004252269">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600004252269" />
+    <state width="1638" height="360" key="GridCell.Tab.0.bottom" timestamp="1600150933388">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="360" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1600150933388" />
+    <state width="1638" height="360" key="GridCell.Tab.0.center" timestamp="1600150933386">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="360" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1600150933386" />
+    <state width="1638" height="360" key="GridCell.Tab.0.left" timestamp="1600150933385">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="360" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1600150933385" />
+    <state width="1638" height="360" key="GridCell.Tab.0.right" timestamp="1600150933387">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="360" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1600150933387" />
+    <state x="542" y="234" key="RollbackChangesDialog" timestamp="1599987890339">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="542" y="234" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1599987890339" />
+    <state x="328" y="106" key="SettingsEditor" timestamp="1600150993114">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1600150993114" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1600011360244">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1600011360244" />
+    <state x="476" y="137" key="new project wizard" timestamp="1600150600126">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="476" y="137" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1600150600126" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1600003159492">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1600003159492" />
+  </component>
+</project>

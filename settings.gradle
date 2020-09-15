@@ -1,2 +1,4 @@
 rootProject.name = 'named-entity-recognition'
-
+include 'lemmatization'
+include 'ner'
+include 'pipeline'

@@ -19,7 +19,6 @@ gradlew.bat
 .DS_Store
 
 # IntelliJ Files that are per-user and should not be checked in.
-.idea/workspace.xml
 .idea/scopes/scope_settings.xml
 .idea/uiDesigner.xml
 .idea/dictionaries/
