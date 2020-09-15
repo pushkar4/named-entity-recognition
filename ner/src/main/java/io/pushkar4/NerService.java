@@ -18,19 +18,20 @@ public class NerService {
     StanfordCoreNLP pipeline = Pipeline.getPipeline();
     CoreDocument coreDocument = pipeline.processToCoreDocument(sentence);
 
+//    System.out.println("\nParts of Speech:");
+//    List<CoreLabel> coreLabelList = coreDocument.tokens();
+//    coreLabelList.forEach(
+//            coreLabel -> {
+//              String pos = coreLabel.tag();
+//              System.out.println(coreLabel.originalText() + " : " + pos);
+//            });
+
     System.out.println("\nNamed Entities:");
     List<CoreLabel> coreLabelList = coreDocument.tokens();
     coreLabelList.forEach(
         coreLabel -> {
           String ner = coreLabel.get(CoreAnnotations.NamedEntityTagAnnotation.class);
           System.out.println(coreLabel.originalText() + " : " + ner);
-        });
-
-    System.out.println("\nParts of Speech:");
-    coreLabelList.forEach(
-        coreLabel -> {
-          String pos = coreLabel.tag();
-          System.out.println(coreLabel.originalText() + " : " + pos);
         });
 
     System.out.println("\nEntity Mentions:");

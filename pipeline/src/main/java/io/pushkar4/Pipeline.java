@@ -15,6 +15,7 @@ public class Pipeline {
     properties = new Properties();
     properties.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner");
     properties.setProperty("sutime.markTimeRanges", "true");
+    properties.setProperty("ner.combinationMode", "HIGH_RECALL");
     properties.setProperty(
         "ner.model",
         "edu/stanford/nlp/models/ner/english.all.3class.distsim.crf.ser.gz,"
