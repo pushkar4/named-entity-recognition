@@ -1,0 +1,5 @@
+# generate token per line file
+java -cp stanford-ner.jar edu.stanford.nlp.process.PTBTokenizer ner_training_data.txt > ner_training.tok
+
+# train classifier
+java -cp stanford-ner.jar edu.stanford.nlp.ie.crf.CRFClassifier -prop ner_training.prop

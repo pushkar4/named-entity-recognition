@@ -24,6 +24,7 @@ gradlew.bat
 .idea/dictionaries/
 .idea/copyright/profiles_settings.xml
 .idea/misc.xml
+.idea/workspace.xml
 .idea/compiler.xml
 .idea/gradle.xml
 # Maybe, we'll remove this ignore after everyone starts using IntelliJ13 with gradle integration
