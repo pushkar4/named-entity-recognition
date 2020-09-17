@@ -7,7 +7,7 @@ import java.util.Properties;
 public class Pipeline {
 
   private static Properties properties;
-  private static StanfordCoreNLP stanfordCoreNLP;
+  private static StanfordCoreNLP stanfordCoreNLP = null;
 
   private Pipeline() {}
 
@@ -15,6 +15,7 @@ public class Pipeline {
     properties = new Properties();
     properties.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner");
     properties.setProperty("sutime.markTimeRanges", "true");
+    properties.setProperty("ner.applyFineGrained", "false");
     properties.setProperty("ner.combinationMode", "HIGH_RECALL");
     properties.setProperty(
         "ner.model",

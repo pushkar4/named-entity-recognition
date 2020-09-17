@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4812e8d2-663f-4c6a-81c8-f3f0622b1b41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lemmatization/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ner/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pipeline/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LemmaExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lemmatization/src/main/java/io/pushkar4/LemmaExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ner/src/main/java/io/pushkar4/NerExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ner/src/main/java/io/pushkar4/NerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline/src/main/java/io/pushkar4/Pipeline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipeline/src/main/java/io/pushkar4/Pipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline/src/main/java/io/pushkar4/Pipeline.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,45 +24,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="named-entity-recognition" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="named-entity-recognition" type="f1a62948:ProjectNode" />
-                <item name="lemmatization" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="named-entity-recognition" type="f1a62948:ProjectNode" />
-                <item name="lemmatization" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="named-entity-recognition" type="f1a62948:ProjectNode" />
-                <item name="lemmatization" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="named-entity-recognition" type="f1a62948:ProjectNode" />
-                <item name="lemmatization" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="named-entity-recognition" type="f1a62948:ProjectNode" />
-                <item name="lemmatization" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="named-entity-recognition" type="f1a62948:ProjectNode" />
-                <item name="lemmatization" type="2d1252cf:ModuleNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
             </expand>
             <select />
@@ -104,17 +57,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Application.NerExample">
+  <component name="RunManager" selected="Application.NerService">
     <configuration name="LemmaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.pushkar4.LemmaExample" />
       <module name="named-entity-recognition.lemmatization.main" />
@@ -200,10 +154,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add support for date/time durations" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="328" y="106" key="#Project_Structure" timestamp="1600150702092">
+    <state x="328" y="106" key="#Project_Structure" timestamp="1600350488810">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="328" y="106" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1600150702092" />
+    <state x="328" y="106" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1600350488810" />
     <state x="381" y="119" key="CommitChangelistDialog2" timestamp="1600011352634">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -212,30 +166,30 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600004252269" />
-    <state width="1638" height="360" key="GridCell.Tab.0.bottom" timestamp="1600150933388">
+    <state width="1638" height="480" key="GridCell.Tab.0.bottom" timestamp="1600349054216">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="360" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1600150933388" />
-    <state width="1638" height="360" key="GridCell.Tab.0.center" timestamp="1600150933386">
+    <state width="1638" height="480" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1600349054216" />
+    <state width="1638" height="480" key="GridCell.Tab.0.center" timestamp="1600349054214">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="360" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1600150933386" />
-    <state width="1638" height="360" key="GridCell.Tab.0.left" timestamp="1600150933385">
+    <state width="1638" height="480" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1600349054214" />
+    <state width="1638" height="480" key="GridCell.Tab.0.left" timestamp="1600349054213">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="360" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1600150933385" />
-    <state width="1638" height="360" key="GridCell.Tab.0.right" timestamp="1600150933387">
+    <state width="1638" height="480" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1600349054213" />
+    <state width="1638" height="480" key="GridCell.Tab.0.right" timestamp="1600349054215">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="360" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1600150933387" />
+    <state width="1638" height="480" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1600349054215" />
     <state x="542" y="234" key="RollbackChangesDialog" timestamp="1599987890339">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="542" y="234" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1599987890339" />
-    <state x="328" y="106" key="SettingsEditor" timestamp="1600150993114">
+    <state x="328" y="106" key="SettingsEditor" timestamp="1600362257570">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1600150993114" />
+    <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1600362257570" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1600011360244">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -244,9 +198,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="476" y="137" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1600150600126" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1600003159492">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1600240511992">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1600003159492" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1600240511992" />
   </component>
 </project>
