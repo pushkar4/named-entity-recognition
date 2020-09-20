@@ -1,5 +1,7 @@
 package io.pushkar4;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor;
@@ -106,5 +108,11 @@ public class NerService {
     System.out.println("Entity Map:");
     for (Map.Entry<String,Set<String>> entry : entityMap.entrySet())
       System.out.println(entry.getKey() + " : " + entry.getValue());
+
+    System.out.println("\n==============================================================================");
+    System.out.println("Entity Map in Json:");
+    Gson gson = new GsonBuilder().setPrettyPrinting().create();
+    String json = gson.toJson(entityMap);
+    System.out.println(json);
   }
 }
