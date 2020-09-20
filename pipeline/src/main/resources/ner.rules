@@ -1,0 +1,24 @@
+# these Java classes will be used by the rules
+ner = { type: "CLASS", value: "edu.stanford.nlp.ling.CoreAnnotations$NamedEntityTagAnnotation" }
+tokens = { type: "CLASS", value: "edu.stanford.nlp.ling.CoreAnnotations$TokensAnnotation" }
+
+
+# define some regexes over tokens
+$WORD_BEGINNING = "/[A-Za-z]+/"
+
+
+# recognizing portfolio
+{ ruleType: "tokens", pattern: ([{word:$WORD_BEGINNING}] [{word:/portfolio|portfolios/}]), action: Annotate($0, ner, "PORTFOLIO"), result: "PORTFOLIO" }
+
+# recognizing goal
+{ ruleType: "tokens", pattern: ([{word:$WORD_BEGINNING}] [{word:/goal|goals/}]), action: Annotate($0, ner, "GOAL"), result: "GOAL" }
+
+# recognizing investment
+{ ruleType: "tokens", pattern: ([{word:$WORD_BEGINNING}] [{word:/investment|investments/}]), action: Annotate($0, ner, "INVESTMENT"), result: "INVESTMENT" }
+
+# recognizing team
+{ ruleType: "tokens", pattern: ([{word:$WORD_BEGINNING}] [{word:/team|teams/}]), action: Annotate($0, ner, "TEAM"), result: "TEAM" }
+
+# recognizing theme
+{ ruleType: "tokens", pattern: ([{word:$WORD_BEGINNING}] [{word:/theme|themes/}]), action: Annotate($0, ner, "THEME"), result: "THEME" }
+
